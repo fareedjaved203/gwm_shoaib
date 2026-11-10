@@ -1,0 +1,139 @@
+---
+title: Customers, ordering and billing
+---
+erDiagram
+    STATE ||--o{ ADDRESS : "state_code"
+    WASTE_CATEGORY ||--o{ CATEGORY_TIN_SIZE : "category_id"
+    TIN_SIZE ||--o{ CATEGORY_TIN_SIZE : "tin_size_id"
+    CATEGORY_TIN_SIZE ||--o{ TIN_PRICE : "category_id, tin_size_id"
+    STATE ||--o{ TIN_PRICE : "state_code"
+    TIN_SIZE ||--o{ SMART_TIN : "tin_size_id"
+    ADDRESS ||--o{ CUSTOMER : "billing_address_id"
+    CUSTOMER ||--o{ CUSTOMER_ORDER : "customer_id"
+    ADDRESS ||--o{ CUSTOMER_ORDER : "billing_address_id"
+    ADDRESS ||--o{ CUSTOMER_ORDER : "delivery_address_id"
+    CUSTOMER_ORDER ||--o{ ORDER_LINE : "order_id"
+    CATEGORY_TIN_SIZE ||--o{ ORDER_LINE : "category_id, tin_size_id"
+    SMART_TIN |o--o{ ORDER_LINE : "tin_id, tin_size_id"
+    CUSTOMER_ORDER ||--o{ JOB : "order_id"
+    CUSTOMER_ORDER ||--o{ INVOICE : "order_id"
+    INVOICE ||--o{ PAYMENT : "invoice_id"
+    STATE {
+        varchar2 state_code PK "(3) not null"
+        varchar2 state_name UK "(50) not null"
+    }
+    ADDRESS {
+        number address_id PK "not null"
+        varchar2 street_line1 "(150) not null"
+        varchar2 street_line2 "(150) null"
+        varchar2 suburb "(80) not null"
+        varchar2 state_code FK "(3) not null"
+        varchar2 postcode "(4) not null"
+        number council_id FK "not null"
+        number latitude "(9,6) null"
+        number longitude "(9,6) null"
+    }
+    WASTE_CATEGORY {
+        number category_id PK "not null"
+        varchar2 category_code UK "(10) not null"
+        varchar2 category_name "(60) not null"
+        varchar2 weight_class "(5) not null"
+        varchar2 description "(300) null"
+    }
+    TIN_SIZE {
+        number tin_size_id PK "not null"
+        varchar2 size_code UK "(10) not null"
+        number volume_m3 UK "(4,1) not null"
+        number max_load_kg "(8) not null"
+        varchar2 description "(200) null"
+    }
+    CATEGORY_TIN_SIZE {
+        number category_id PK,FK "not null"
+        number tin_size_id PK,FK "not null"
+    }
+    TIN_PRICE {
+        number tin_price_id PK "not null"
+        number category_id FK "not null"
+        number tin_size_id FK "not null"
+        varchar2 state_code FK "(3) not null"
+        number hire_price "(10,2) not null"
+        date effective_from "not null"
+    }
+    SMART_TIN {
+        number tin_id PK "not null"
+        varchar2 tin_serial UK "(20) not null"
+        number tin_size_id FK "not null"
+        number depot_id FK "not null"
+        varchar2 device_imei UK "(15) not null"
+        varchar2 firmware_version "(20) null"
+        varchar2 tin_status "(12) not null"
+        date purchase_date "not null"
+        timestamp last_seen_at "null"
+    }
+    CUSTOMER {
+        number customer_id PK "not null"
+        varchar2 customer_type "(12) not null"
+        varchar2 first_name "(60) null"
+        varchar2 last_name "(60) null"
+        varchar2 company_name "(120) null"
+        varchar2 abn UK "(11) null"
+        varchar2 email UK "(150) not null"
+        varchar2 phone "(20) not null"
+        number billing_address_id FK "not null"
+        number credit_limit "(12,2) not null"
+        varchar2 customer_status "(10) not null"
+        timestamp created_at "not null"
+    }
+    CUSTOMER_ORDER {
+        number order_id PK "not null"
+        varchar2 order_number UK "(20) not null"
+        number customer_id FK "not null"
+        number billing_address_id FK "not null"
+        number delivery_address_id FK "not null"
+        timestamp ordered_at "not null"
+        date requested_delivery "not null"
+        date requested_pickup "not null"
+        varchar2 site_contact_name "(100) null"
+        varchar2 site_contact_phone "(20) null"
+        varchar2 order_status "(12) not null"
+        varchar2 notes "(500) null"
+    }
+    ORDER_LINE {
+        number order_line_id PK "not null"
+        number order_id FK "not null"
+        number category_id FK "not null"
+        number tin_size_id FK "not null"
+        number tin_id FK "null"
+        number unit_price "(10,2) not null"
+    }
+    JOB {
+        number job_id PK "not null"
+        number order_id FK "not null"
+        number vehicle_id FK "not null"
+        varchar2 job_type "(10) not null"
+        timestamp scheduled_start "not null"
+        timestamp actual_start "null"
+        timestamp actual_end "null"
+        varchar2 job_status "(12) not null"
+        number outsource_cost "(10,2) not null"
+        varchar2 notes "(300) null"
+    }
+    INVOICE {
+        number invoice_id PK "not null"
+        varchar2 invoice_number UK "(20) not null"
+        number order_id FK "not null"
+        date issue_date "not null"
+        date due_date "not null"
+        number subtotal "(12,2) not null"
+        number gst_amount "(12,2) not null"
+        number total_amount "(12,2) not null"
+        varchar2 invoice_status "(10) not null"
+    }
+    PAYMENT {
+        number payment_id PK "not null"
+        number invoice_id FK "not null"
+        timestamp paid_at "not null"
+        number amount "(12,2) not null"
+        varchar2 payment_method "(15) not null"
+        varchar2 reference_no "(40) null"
+    }

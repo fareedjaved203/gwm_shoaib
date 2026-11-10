@@ -1,0 +1,878 @@
+
+PL/SQL procedure successfully completed.
+
+old   1: CREATE USER gwm_owner IDENTIFIED BY "&gwm_password" DEFAULT TABLESPACE users QUOTA UNLIMITED ON users
+new   1: CREATE USER gwm_owner IDENTIFIED BY "GwmOwner_2026" DEFAULT TABLESPACE users QUOTA UNLIMITED ON users
+
+User created.
+
+
+Grant succeeded.
+
+
+Session altered.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Index created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+Trigger created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+PL/SQL procedure successfully completed.
+
+
+6 rows created.
+
+
+20 rows created.
+
+
+12 rows created.
+
+
+12 rows created.
+
+
+24 rows created.
+
+
+3 rows created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+8 rows created.
+
+
+12 rows created.
+
+
+6 rows updated.
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+3 rows created.
+
+
+8 rows created.
+
+
+Commit complete.
+
+
+PL/SQL procedure successfully completed.
+
+
+286 rows created.
+
+
+286 rows created.
+
+
+1440 rows created.
+
+
+Commit complete.
+
+
+474 rows created.
+
+
+3 rows created.
+
+
+26 rows created.
+
+
+7 rows created.
+
+
+Commit complete.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+View created.
+
+
+PL/SQL procedure successfully completed.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+PL/SQL procedure successfully completed.
+
+
+Audit policy created.
+
+
+Audit succeeded.
+
+
+Audit policy created.
+
+
+Audit succeeded.
+
+
+PL/SQL procedure successfully completed.
+
+
+Session altered.
+
+Elapsed: 00:00:00.00
+=== 1. Executive KPIs ===
+
+KPI					     VALUE
+---------------------------------- ---------------
+1 Revenue ex GST			 25,732.00
+2 Cash collected			 23,477.64
+3 Outstanding receivables		  4,827.56
+4 Open orders				      6.00
+5 Tins on site				      3.00
+6 Recycling diversion % 		     61.40
+7 Outsource spend			  2,500.00
+8 Timesheets pending			    160.00
+9 Payroll cost (gross + super)		 95,227.44
+
+9 rows selected.
+
+Elapsed: 00:00:00.02
+=== 2. Monthly revenue by state with month-on-month growth ===
+
+MONTH	ST	ORDERS	  REVENUE PREV_MONTH	MOM_PCT RUNNING_TOTAL
+------- --- ---------- ---------- ---------- ---------- -------------
+2026-08 NSW	     7	     2700				 2700
+2026-09 NSW	     9	     3370	2700	   24.8 	 6070
+2026-10 NSW	    11	     4230	3370	   25.5 	10300
+2026-11 NSW	     3	      970	4230	  -77.1 	11270
+2026-08 QLD	     4	   1781.9			       1781.9
+2026-09 QLD	     4	   1699.5     1781.9	   -4.6        3481.4
+2026-10 QLD	     4	   1874.6     1699.5	   10.3 	 5356
+2026-11 QLD	     1	      412     1874.6	    -78 	 5768
+2026-08 VIC	     5	     2310				 2310
+2026-09 VIC	     6	   2824.5	2310	   22.3        5134.5
+2026-10 VIC	     6	     2814     2824.5	    -.4        7948.5
+2026-11 VIC	     2	    745.5	2814	  -73.5 	 8694
+
+12 rows selected.
+
+Elapsed: 00:00:00.01
+=== 3. Waste category mix ===
+
+CATEGORY_NAME						     WT_CL TINS_HIRED	 REVENUE  AVG_PRICE  SHARE_PCT
+------------------------------------------------------------ ----- ---------- ---------- ---------- ----------
+Building Materials					     HEAVY	   15	  7153.1     476.87	  27.8
+Mixed Rubbish						     LIGHT	   15	  7146.9     476.46	  27.8
+Concrete						     HEAVY	   16	  5911.2     369.45	    23
+Dirt							     HEAVY	   16	  5520.8     345.05	  21.5
+
+4 rows selected.
+
+Elapsed: 00:00:00.02
+=== 4. Receivables ageing ===
+
+CUSTOMER_NAME		       NOT_YET_DUE	D1_30	  D31_60   D60_PLUS	 TOTAL CREDIT_LIMIT CREDIT
+------------------------------ ----------- ---------- ---------- ---------- ---------- ------------ ----------
+Ava Thompson			    450.45     317.24	       0     266.25    1033.94	       1500 OK
+Brisbane Landscaping Co 	     453.2	    0	     440	  0	 893.2	      15000 OK
+Western Demolition Pty Ltd	    633.27	    0	  215.27	  0	848.54	      40000 OK
+Harbour Constructions Pty Ltd		 0	  352	       0	352	   704	      25000 OK
+Casey Community Services	       319	    0	     319	  0	   638	      50000 OK
+Olivia Bennett				 0	  319	       0	  0	   319	       1000 OK
+Liam Nguyen				 0	    0	  220.93	  0	220.93	       1000 OK
+Southbank Builders Pty Ltd		 0     169.95	       0	  0	169.95	      30000 OK
+
+8 rows selected.
+
+Elapsed: 00:00:00.02
+=== 5. Customer ranking (Pareto) ===
+
+      RANK CUSTOMER_NAME		      ORDERS TOTAL_BILLED  SHARE_PCT	CUM_PCT
+---------- ------------------------------ ---------- ------------ ---------- ----------
+	 1 Ava Thompson 			   8	  4156.24	14.7	   14.7
+	 2 Casey Community Services		   8	  3959.01	  14	   28.7
+	 3 Olivia Bennett			   7	  3902.58	13.8	   42.5
+	 4 Liam Nguyen				   7	  3712.17	13.1	   55.6
+	 5 Brisbane Landscaping Co		   8	   3612.4	12.8	   68.3
+	 6 Western Demolition Pty Ltd		   8	  3389.98	  12	   80.3
+	 7 Harbour Constructions Pty Ltd	   8	  2889.92	10.2	   90.5
+	 8 Southbank Builders Pty Ltd		   8	   2682.9	 9.5	    100
+
+8 rows selected.
+
+Elapsed: 00:00:00.01
+=== 6. Fleet performance ===
+
+REGO	   OWNERSHIP  OPERATED_BY		     JOBS OUTSOURCE_COST MAINT_COST NEXT_SERVI SERVICE_STATUS
+---------- ---------- ------------------------ ---------- -------------- ---------- ---------- ----------------------
+MHT101	   OUTSOURCED Metro Haulage Pty Ltd	       10	    1300	  0	       N/A (supplier managed)
+QLT202	   OUTSOURCED QuickLift Transport	       10	    1200	  0	       N/A (supplier managed)
+GWM01N	   OWNED      Sydney West Depot 	       16	       0       1330 2026-11-17 DUE SOON
+GWM02N	   OWNED      Sydney West Depot 	       35	       0       1400 2026-12-04 OK
+GWM03V	   OWNED      Melbourne Central Depot	       16	       0       1470 2026-12-21 OK
+GWM04V	   OWNED      Melbourne Central Depot	       13	       0       1540 2026-11-08 OVERDUE
+GWM05Q	   OWNED      Brisbane South Depot		9	       0       1610 2026-11-25 OK
+GWM06Q	   OWNED      Brisbane South Depot	       12	       0       1680 2026-12-12 OK
+
+8 rows selected.
+
+Elapsed: 00:00:00.02
+=== 7. Staff utilisation (last 14 days) ===
+
+STAFF_NAME	   EMP_TYPE   POSITION_TITLE		 SHIFTS      HOURS LABOUR_COST
+------------------ ---------- ---------------------- ---------- ---------- -----------
+Sarah Mitchell	   EMPLOYEE   Depot Manager		     10 	85	  4675
+Aaron Boyd	   CONTRACTOR Truck Driver		     10 	85	  4420
+Lena Fox	   CONTRACTOR Offsider			     10 	85	  4420
+Omar Haddad	   CONTRACTOR Truck Driver		     10 	85	  4165
+Rachel Adams	   EMPLOYEE   Accountant		     10 	85	  4080
+Paul Singh	   EMPLOYEE   Mechanic			     10 	85	  3825
+Kevin Lee	   EMPLOYEE   Rostering Coordinator	     10 	85	  3570
+Jack Hughes	   EMPLOYEE   Truck Driver		     10 	85	3272.5
+Mia Collins	   EMPLOYEE   Truck Driver		     10 	85	3272.5
+Chloe Evans	   EMPLOYEE   Truck Driver		     10 	85	3272.5
+Daniel Moore	   EMPLOYEE   Truck Driver		     10 	85	3272.5
+Priya Sharma	   EMPLOYEE   Truck Driver		     10 	85	3272.5
+Tom Walker	   EMPLOYEE   Truck Driver		     10 	85	3272.5
+Ben Carter	   EMPLOYEE   Offsider			     10 	85	  2720
+Zara Khan	   EMPLOYEE   Offsider			     10 	85	  2720
+Noah Reid	   EMPLOYEE   Offsider			     10 	85	  2720
+
+16 rows selected.
+
+Elapsed: 00:00:00.02
+=== 8. Recycling diversion by facility ===
+
+ST  FACILITY_NAME		   TYPE 	 DOCKETS       T_IN T_RECYCLED DIVERT_PCT  GATE_FEES
+--- ------------------------------ ---------- ---------- ---------- ---------- ---------- ----------
+NSW Blacktown Recycling Centre	   RECYCLING	      23      22.78	 17.27	     75.8    2163.67
+NSW Parramatta Resource Recovery   DUMP 	       6       4.13	  1.03	       25     866.25
+QLD Brisbane Recycling Centre	   RECYCLING	      12       13.9	  8.11	     58.3	1112
+VIC Melbourne Recycling Hub	   RECYCLING	      12      11.53	  9.34	       81     979.65
+VIC Casey Landfill		   DUMP 	       6	9.9	  2.48	       25	1881
+
+5 rows selected.
+
+Elapsed: 00:00:00.02
+=== 9. Smart tin status ===
+
+TIN_SERIAL	     SZ 	TIN_STATUS   LAST_READING	FILL_PCT  WEIGHT_KG   BATT_PCT ALERT
+-------------------- ---------- ------------ ---------------- ---------- ---------- ---------- --------------
+GWM-S8-004	     S8 	MAINTENANCE						       IN MAINTENANCE
+GWM-S2-001	     S2 	DEPLOYED     2026-11-08 12:00	      72	648	  66.5 NORMAL
+GWM-S2-002	     S2 	AVAILABLE    2026-11-06 14:00	       0	  0	    67 NORMAL
+GWM-S2-003	     S2 	AVAILABLE    2026-11-08 14:00	       0	  0	  66.5 NORMAL
+GWM-S2-004	     S2 	AVAILABLE    2026-11-08 14:00	       0	  0	    66 NORMAL
+GWM-S3-001	     S3 	AVAILABLE    2026-11-01 14:00	       0	  0	  68.5 NORMAL
+GWM-S3-003	     S3 	DEPLOYED     2026-11-10 12:00	      49      661.5	  66.5 NORMAL
+GWM-S3-004	     S3 	AVAILABLE    2026-10-30 14:00	       0	  0	    69 NORMAL
+GWM-S4-001	     S4 	AVAILABLE    2026-09-28 14:00	       0	  0	  79.5 NORMAL
+GWM-S4-002	     S4 	AVAILABLE    2026-10-16 14:00	       0	  0	  73.5 NORMAL
+GWM-S4-003	     S4 	AVAILABLE    2026-10-21 14:00	       0	  0	    72 NORMAL
+GWM-S4-004	     S4 	AVAILABLE    2026-11-03 14:00	       0	  0	  67.5 NORMAL
+GWM-S6-001	     S6 	AVAILABLE    2026-08-28 14:00	       0	  0	    90 NORMAL
+GWM-S6-002	     S6 	AVAILABLE    2026-09-29 14:00	       0	  0	    80 NORMAL
+GWM-S6-003	     S6 	AVAILABLE    2026-10-28 14:00	       0	  0	    70 NORMAL
+GWM-S6-004	     S6 	AVAILABLE						       NORMAL
+GWM-S8-001	     S8 	AVAILABLE    2026-09-04 14:00	       0	  0	    88 NORMAL
+GWM-S8-002	     S8 	AVAILABLE    2026-10-03 14:00	       0	  0	    78 NORMAL
+GWM-S8-003	     S8 	AVAILABLE    2026-11-04 14:00	       0	  0	    68 NORMAL
+GWM-S3-002	     S3 	DEPLOYED     2026-11-10 12:00	      79     1066.5	    66 PICKUP DUE
+
+20 rows selected.
+
+Elapsed: 00:00:00.02
+=== 10. Order pipeline ===
+
+ORDER_STATUS ST      ORDERS VALUE_EX_GST EARLIEST_D LATEST_PIC
+------------ --- ---------- ------------ ---------- ----------
+CANCELLED    NSW	  1	     470 2026-09-01 2026-09-06
+COMPLETED    NSW	 29	   10890 2026-08-11 2026-11-08
+COMPLETED    QLD	 12	    5356 2026-08-10 2026-11-01
+COMPLETED    VIC	 18	  8284.5 2026-08-08 2026-11-06
+DELIVERED    NSW	  1	     380 2026-11-09 2026-11-12
+DELIVERED    QLD	  1	     412 2026-11-08 2026-11-13
+DELIVERED    VIC	  1	   409.5 2026-11-06 2026-11-10
+PLACED	     VIC	  1	     336 2026-11-14 2026-11-17
+SCHEDULED    NSW	  1	     350 2026-11-11 2026-11-15
+SCHEDULED    QLD	  1	   484.1 2026-11-12 2026-11-17
+
+10 rows selected.
+
+Elapsed: 00:00:00.02
+=== 11. Cloud performance SLA ===
+
+SERVICE_NAME	   REGION		   CPU_AVG   CPU_PEAK	 MEM_AVG     P95_MS BREACH_HRS	  ERR_PCT SLA_STATUS
+------------------ -------------------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+BI_DASHBOARD	   ap-southeast-2	      49.2	   69	      62      231.7	     0	       .9 WITHIN SLA
+BI_DASHBOARD	   ap-southeast-4	      49.2	   69	    62.4      227.7	     0	       .6 WITHIN SLA
+ORDER_API	   ap-southeast-2	      49.7	   69	    61.4      229.7	     0	       .8 WITHIN SLA
+ORDER_API	   ap-southeast-4	      49.7	   69	    61.9      301.2	    15	       .5 SLA BREACH
+TELEMETRY_INGEST   ap-southeast-2	      49.8	   69	    62.1      227.7	     0	       .6 WITHIN SLA
+TELEMETRY_INGEST   ap-southeast-4	      49.8	   69	    61.8      230.7	     0	       .8 WITHIN SLA
+
+6 rows selected.
+
+Elapsed: 00:00:00.00
+=== 12. Payroll summary ===
+
+START_DATE END_DATE   STATUS	       EMPS    REG_HRS	   OT_HRS     OT_PCT  GROSS_PAY        TAX	SUPER	 NET_PAY TS_PENDING
+---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- ----------
+2026-09-29 2026-10-12 PAID		 13	  1040	       30	 2.8	43122.5     8624.5     5174.7	   34498	  0
+2026-10-13 2026-10-26 PAID		 13	  1000	       34	 3.3	  41902     8380.4    5028.24	 33521.6	  0
+2026-10-27 2026-11-09 OPEN		  0	     0		0		      0 	 0	    0	       0	160
+
+3 rows selected.
+
+Elapsed: 00:00:00.01
+=== 13. Supplier payables ===
+
+SUPPLIER_NAME		   INVOICES TOTAL_INVOICED TOTAL_PAID OUTSTANDING    OVERDUE
+------------------------ ---------- -------------- ---------- ----------- ----------
+Metro Haulage Pty Ltd		  4	      1430	  715	      715	   0
+QuickLift Transport		  3	      1320	  792	      528	   0
+
+2 rows selected.
+
+Elapsed: 00:00:00.01
+=== 14. Masked customer view ===
+
+	ID CUSTOMER_TYP DISPLAY_NAME			   EMAIL_MASKED 		  PHONE_MASKED		 STATUS
+---------- ------------ ---------------------------------- ------------------------------ ---------------------- ----------
+	 1 RESIDENTIAL	O. Bennett			   o***@mail.example		  ******0001		 ACTIVE
+	 2 RESIDENTIAL	L. Nguyen			   l***@mail.example		  ******0002		 ACTIVE
+	 3 COMMERCIAL	Harbour Constructions Pty Ltd	   a***@harbourcon.example	  ******0003		 ACTIVE
+	 4 COMMERCIAL	Southbank Builders Pty Ltd	   a***@southbank.example	  ******0004		 ACTIVE
+	 5 GOVERNMENT	Casey Community Services	   f***@caseycs.example 	  ******0005		 ACTIVE
+	 6 RESIDENTIAL	A. Thompson			   a***@mail.example		  ******0006		 ACTIVE
+	 7 COMMERCIAL	Brisbane Landscaping Co 	   a***@bnelandscape.example	  ******0007		 ACTIVE
+	 8 COMMERCIAL	Western Demolition Pty Ltd	   a***@westdemo.example	  ******0008		 ACTIVE
+
+8 rows selected.
+
+Elapsed: 00:00:00.01
+PASS  Concrete cannot be ordered in an 8m3 tin			 rejected: ORA-02291: integrity constraint (GWM_OWNER.FK_LINE_COMBO) violated
+PASS  Assigned tin must match the ordered size			 rejected: ORA-02291: integrity constraint (GWM_OWNER.FK_LINE_TIN_SIZE) violated
+PASS  Facility must accept the disposed waste category		 rejected: ORA-20001: Facility 3 does not accept the waste category of order line 2
+PASS  Staff cannot have overlapping shifts			 rejected: ORA-20002: Overlapping shift detected for shift 573
+PASS  Owned vehicle must not reference a supplier		 rejected: ORA-02290: check constraint (GWM_OWNER.CK_VEHICLE_OWNERSHIP) violated
+PASS  Contractor must have a supplier, not a depot		 rejected: ORA-02290: check constraint (GWM_OWNER.CK_STAFF_EMPLOYMENT) violated
+PASS  Residential customer requires first and last name 	 rejected: ORA-02290: check constraint (GWM_OWNER.CK_CUSTOMER_IDENTITY) violated
+PASS  Invoice total must equal subtotal plus GST		 rejected: ORA-02290: check constraint (GWM_OWNER.CK_INVOICE_TOTAL) violated
+PASS  Postcode must be four digits				 rejected: ORA-02290: check constraint (GWM_OWNER.CK_ADDRESS_POSTCODE) violated
+PASS  Recycled weight cannot exceed gross weight		 rejected: ORA-02290: check constraint (GWM_OWNER.CK_DISPOSAL_RECYCLED) violated
+PASS  Payment amount must be positive				 rejected: ORA-02290: check constraint (GWM_OWNER.CK_PAYMENT_AMOUNT) violated
+PASS  Order pickup cannot precede delivery			 rejected: ORA-02290: check constraint (GWM_OWNER.CK_ORDER_DATES) violated
+PASS  Address council must be in the same state 		 rejected: ORA-02291: integrity constraint (GWM_OWNER.FK_ADDRESS_COUNCIL) violated
+PASS  Tin cannot be booked on overlapping orders		 rejected: ORA-20004: Smart tin is already booked on an overlapping order (line 69)
+PASS  Contractors cannot receive payslips			 rejected: ORA-20003: Payslips can only be issued to employees, staff 14 is a contractor
+PASS  Payslip net pay must equal gross minus tax		 rejected: ORA-02290: check constraint (GWM_OWNER.CK_PAYSLIP_NET) violated
+PASS  Approved timesheet needs an approver			 rejected: ORA-02290: check constraint (GWM_OWNER.CK_TIMESHEET_APPROVAL) violated
+PASS  Supplier invoice marked PAID needs a paid date		 rejected: ORA-02290: check constraint (GWM_OWNER.CK_SUPINV_PAID) violated
+-----
+Passed: 18   Failed: 0

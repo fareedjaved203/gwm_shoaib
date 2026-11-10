@@ -1,0 +1,89 @@
+---
+title: Locality, councils and facilities
+---
+erDiagram
+    STATE ||--o{ COUNCIL : "state_code"
+    STATE ||--o{ ADDRESS : "state_code"
+    COUNCIL ||--o{ ADDRESS : "council_id, state_code"
+    COUNCIL ||--o{ COUNCIL_FACILITY : "council_id"
+    ADDRESS ||--o{ COUNCIL_FACILITY : "address_id"
+    COUNCIL_FACILITY ||--o{ FACILITY_ACCEPTED_CATEGORY : "facility_id"
+    WASTE_CATEGORY ||--o{ FACILITY_ACCEPTED_CATEGORY : "category_id"
+    ORDER_LINE ||--o{ DISPOSAL_RECORD : "order_line_id"
+    JOB ||--o{ DISPOSAL_RECORD : "job_id"
+    COUNCIL_FACILITY ||--o{ DISPOSAL_RECORD : "facility_id"
+    STATE {
+        varchar2 state_code PK "(3) not null"
+        varchar2 state_name UK "(50) not null"
+    }
+    COUNCIL {
+        number council_id PK "not null"
+        varchar2 state_code FK "(3) not null"
+        varchar2 council_name "(120) not null"
+        varchar2 contact_email "(150) null"
+        varchar2 contact_phone "(20) null"
+        number waste_levy_per_tonne "(10,2) not null"
+    }
+    ADDRESS {
+        number address_id PK "not null"
+        varchar2 street_line1 "(150) not null"
+        varchar2 street_line2 "(150) null"
+        varchar2 suburb "(80) not null"
+        varchar2 state_code FK "(3) not null"
+        varchar2 postcode "(4) not null"
+        number council_id FK "not null"
+        number latitude "(9,6) null"
+        number longitude "(9,6) null"
+    }
+    WASTE_CATEGORY {
+        number category_id PK "not null"
+        varchar2 category_code UK "(10) not null"
+        varchar2 category_name "(60) not null"
+        varchar2 weight_class "(5) not null"
+        varchar2 description "(300) null"
+    }
+    COUNCIL_FACILITY {
+        number facility_id PK "not null"
+        number council_id FK "not null"
+        number address_id FK "not null"
+        varchar2 facility_name "(120) not null"
+        varchar2 facility_type "(10) not null"
+        number gate_fee_per_tonne "(10,2) not null"
+        varchar2 operating_hours "(100) null"
+        number is_active "(1) not null"
+    }
+    FACILITY_ACCEPTED_CATEGORY {
+        number facility_id PK,FK "not null"
+        number category_id PK,FK "not null"
+    }
+    ORDER_LINE {
+        number order_line_id PK "not null"
+        number order_id FK "not null"
+        number category_id FK "not null"
+        number tin_size_id FK "not null"
+        number tin_id FK "null"
+        number unit_price "(10,2) not null"
+    }
+    JOB {
+        number job_id PK "not null"
+        number order_id FK "not null"
+        number vehicle_id FK "not null"
+        varchar2 job_type "(10) not null"
+        timestamp scheduled_start "not null"
+        timestamp actual_start "null"
+        timestamp actual_end "null"
+        varchar2 job_status "(12) not null"
+        number outsource_cost "(10,2) not null"
+        varchar2 notes "(300) null"
+    }
+    DISPOSAL_RECORD {
+        number disposal_id PK "not null"
+        number order_line_id FK "not null"
+        number job_id FK "not null"
+        number facility_id FK "not null"
+        varchar2 docket_number UK "(20) not null"
+        timestamp disposed_at "not null"
+        number gross_weight_kg "(10,2) not null"
+        number recycled_weight_kg "(10,2) not null"
+        number gate_fee "(10,2) not null"
+    }
